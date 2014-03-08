@@ -1,12 +1,12 @@
-main -> atof_PLT
+main -> atof@plt
 main -> calculate_triangle
 main -> check_params
 main -> my_abs
 main -> my_asin
 main -> my_sqrt
-main -> printf_PLT
-main -> puts_PLT
+main -> printf@plt
+main -> puts@plt
 main -> show_help
-main -> strcmp_PLT
+main -> strcmp@plt
 main -> throw_ussage_error
 main -> trinagle_create

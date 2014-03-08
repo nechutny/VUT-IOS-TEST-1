@@ -1,4 +1,4 @@
-main -> fwrite_PLT
+main -> fwrite@plt
 main -> isDebug
 main -> isHelp
 main -> isSetParams

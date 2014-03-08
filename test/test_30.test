@@ -3,8 +3,8 @@ main -> create_bitmap
 main -> find_hline
 main -> find_square
 main -> find_vline
-main -> printf_PLT
-main -> puts_PLT
+main -> printf@plt
+main -> puts@plt
 main -> show_help
-main -> strcmp_PLT
+main -> strcmp@plt
 main -> throw_error
