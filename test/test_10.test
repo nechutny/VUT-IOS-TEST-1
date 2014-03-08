@@ -1,0 +1,7 @@
+main -> fwrite_PLT
+main -> isDebug
+main -> isHelp
+main -> isSetParams
+main -> preparePositionParam
+main -> readStdin
+main -> showHelp

@@ -1,0 +1,3 @@
+}
+digraph CG {
+getcolor -> fprintf_PLT;

@@ -1,0 +1,13 @@
+find_hline -> search_line
+find_square -> getcolor
+find_vline -> search_line
+__libc_csu_init -> _init
+main -> clean
+main -> create_bitmap
+main -> find_hline
+main -> find_square
+main -> find_vline
+main -> show_help
+main -> throw_error
+print_image -> getcolor
+search_line -> getcolor

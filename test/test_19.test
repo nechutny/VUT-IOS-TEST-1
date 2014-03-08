@@ -1,0 +1,8 @@
+main -> calculate_triangle
+main -> check_params
+main -> my_abs
+main -> my_asin
+main -> my_sqrt
+main -> show_help
+main -> throw_ussage_error
+main -> trinagle_create

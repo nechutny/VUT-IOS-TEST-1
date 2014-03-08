@@ -1,0 +1,10 @@
+main -> clean
+main -> create_bitmap
+main -> find_hline
+main -> find_square
+main -> find_vline
+main -> printf_PLT
+main -> puts_PLT
+main -> show_help
+main -> strcmp_PLT
+main -> throw_error

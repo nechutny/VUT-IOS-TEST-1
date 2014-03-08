@@ -1,0 +1,5 @@
+}
+digraph CG {
+trinagle_create -> triangle_fill;
+trinagle_create -> triangle_side_length;
+trinagle_create -> triangle_validate;
