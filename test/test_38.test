@@ -1,0 +1,8 @@
+}
+digraph GSYM {
+menu.o [label="menu.o"];
+screen.o [label="screen.o"];
+spell.o [label="spell.o"];
+syntax.o [label="syntax.o"];
+tag.o [label="tag.o"];
+ui.o [label="ui.o"];
