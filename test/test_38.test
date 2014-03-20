@@ -1,12 +1,9 @@
 }
 digraph GSYM {
-menuDo [label="menu.o"];
 screenDo [label="screen.o"];
-spellDo [label="spell.o"];
 syntaxDo [label="syntax.o"];
 syntaxDo -> screenDo [label="redraw_all_later"];
 syntaxDo -> screenDo [label="redraw_curbuf_later"];
 syntaxDo -> screenDo [label="redraw_later_clear"];
 syntaxDo -> uiDo [label="ui_delay"];
-tagDo [label="tag.o"];
 uiDo [label="ui.o"];

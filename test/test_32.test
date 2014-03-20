@@ -3941,7 +3941,6 @@ charsetDo -> misc2Do [label="virtual_active"];
 charsetDo -> moveDo [label="win_col_off"];
 charsetDo -> moveDo [label="win_col_off2"];
 charsetDo -> os_unixDo [label="mch_has_wildcard"];
-if_cscopeDo [label="if_cscope.o"];
 if_xcmdsrvDo -> evalDo [label="set_vim_var_string"];
 if_xcmdsrvDo -> fileioDo [label="apply_autocmds"];
 if_xcmdsrvDo -> guiDo [label="gui"];
