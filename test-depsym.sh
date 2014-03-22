@@ -53,8 +53,8 @@ else
 	echo " ... Chyba";
 fi
 
-echo "[Test 35] -r buffer.o objects/*.o"
-./depsym.sh -r buffer.o ./objects/*.o | sort > test/test_35.output
+echo "[Test 35] -r ./objects/buffer.o objects/*.o"
+./depsym.sh -r ./objects/buffer.o ./objects/*.o | sort > test/test_35.output
 diff test/test_35.test test/test_35.output
 
 if [ "$?" = "0" ]; then
@@ -64,8 +64,8 @@ else
 	echo " ... Chyba";
 fi
 
-echo "[Test 36] -d buffer.o objects/*.o"
-./depsym.sh -d buffer.o ./objects/*.o | sort > test/test_36.output
+echo "[Test 36] -d ./objects/buffer.o objects/*.o"
+./depsym.sh -d ./objects/buffer.o ./objects/*.o | sort > test/test_36.output
 diff test/test_36.test test/test_36.output
 
 if [ "$?" = "0" ]; then
